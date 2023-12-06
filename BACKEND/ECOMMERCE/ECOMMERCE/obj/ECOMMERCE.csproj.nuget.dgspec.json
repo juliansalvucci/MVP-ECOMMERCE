@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JulianSalvucci\\source\\repos\\ECOMMERCE\\ECOMMERCE\\ECOMMERCE.csproj": {}
+    "C:\\Users\\JulianSalvucci\\Documents\\MVP\\BACKEND\\ECOMMERCE\\ECOMMERCE\\ECOMMERCE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JulianSalvucci\\source\\repos\\ECOMMERCE\\ECOMMERCE\\ECOMMERCE.csproj": {
+    "C:\\Users\\JulianSalvucci\\Documents\\MVP\\BACKEND\\ECOMMERCE\\ECOMMERCE\\ECOMMERCE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JulianSalvucci\\source\\repos\\ECOMMERCE\\ECOMMERCE\\ECOMMERCE.csproj",
+        "projectUniqueName": "C:\\Users\\JulianSalvucci\\Documents\\MVP\\BACKEND\\ECOMMERCE\\ECOMMERCE\\ECOMMERCE.csproj",
         "projectName": "ECOMMERCE",
-        "projectPath": "C:\\Users\\JulianSalvucci\\source\\repos\\ECOMMERCE\\ECOMMERCE\\ECOMMERCE.csproj",
+        "projectPath": "C:\\Users\\JulianSalvucci\\Documents\\MVP\\BACKEND\\ECOMMERCE\\ECOMMERCE\\ECOMMERCE.csproj",
         "packagesPath": "C:\\Users\\JulianSalvucci\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JulianSalvucci\\source\\repos\\ECOMMERCE\\ECOMMERCE\\obj\\",
+        "outputPath": "C:\\Users\\JulianSalvucci\\Documents\\MVP\\BACKEND\\ECOMMERCE\\ECOMMERCE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JulianSalvucci\\AppData\\Roaming\\NuGet\\NuGet.Config",

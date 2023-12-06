@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T9r26USKPySbl8XyEWhpD22SzZ7MDBVQvCuzXs8B0yLKVeGFL8A3rLLSoune5b4a+1UlEEB0vuifTolgFi2gOw==",
+  "dgSpecHash": "zV2GpngEocdimE+3pupMdjCAxEGmMZHJC1aB8R8si8K0jRAozKW/KsCe1VsqWxHh0C4ElKVoMvunfjq2NE094w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JulianSalvucci\\source\\repos\\ECOMMERCE\\ECOMMERCE\\ECOMMERCE.csproj",
+  "projectFilePath": "C:\\Users\\JulianSalvucci\\Documents\\MVP\\BACKEND\\ECOMMERCE\\ECOMMERCE\\ECOMMERCE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JulianSalvucci\\.nuget\\packages\\dapper\\2.1.21\\dapper.2.1.21.nupkg.sha512",
     "C:\\Users\\JulianSalvucci\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
