@@ -11,6 +11,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//CONFIGURACIÓN DE CORS
+builder.Services.AddCors(p => p.AddPolicy("corspolicy", build =>
+{
+    build.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+}));
+
 //INYECCIÓN DE DEPENDENCIAS.
 builder.Services.AddScoped<IProductoService, ProductoService>();
 
@@ -28,6 +34,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//Establecer políticas de cors
+app.UseCors("corspolicy");
 
 app.UseHttpsRedirection();
 
