@@ -14,6 +14,9 @@ namespace ECOMMERCE.Models.Auth
         public string Correo { get; set; } = "";
 
         [Required]
+        public string DNI { get; set; } = "";
+
+        [Required]
         [MinLength(8, ErrorMessage = "La contraseña debe contener un mínimo de 8 caracteres")]
         public string Password { get; set; } = "";
     }

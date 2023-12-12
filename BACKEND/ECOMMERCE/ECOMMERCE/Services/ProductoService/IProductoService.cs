@@ -4,6 +4,6 @@ namespace ECOMMERCE.Services.ProductoService
 {
     public interface IProductoService
     {
-        public List<Producto> GetAllProductos();
+        public List<Producto> GetAllProductos(int pages);
     }
 }

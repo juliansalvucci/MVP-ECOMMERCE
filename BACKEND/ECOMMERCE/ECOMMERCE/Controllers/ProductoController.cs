@@ -16,11 +16,11 @@ namespace ECOMMERCE.Controllers
         }
 
         [HttpGet("/api/GetAllProductos")]
-        public ActionResult<List<Producto>> GetAllProductos()
+        public ActionResult<List<Producto>> GetAllProductos(int pages)
         {
             try
             {
-                var registros = _productoService.GetAllProductos();
+                var registros = _productoService.GetAllProductos(pages);
 
                 return Ok(registros);
             }
