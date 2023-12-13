@@ -13,8 +13,8 @@ namespace ECOMMERCE.Repositories
             cnn.Open();
             var query = @$"SELECT * FROM Producto
                 ORDER BY Id                               
-                OFFSET {pages * 5} ROWS                               
-                FETCH NEXT 5 ROWS ONLY"; ;
+                OFFSET {pages * 6} ROWS                               
+                FETCH NEXT 6 ROWS ONLY"; ;
             var list = cnn.Query<Producto>(query).ToList();
             return list;
         }
