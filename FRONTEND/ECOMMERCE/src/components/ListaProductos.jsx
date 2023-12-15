@@ -8,14 +8,14 @@ function NavPage({ page, setPage }) {
         className="btn btn-primary btn-sm"
         onClick={() => setPage(page - 1)}
       >
-        Sección {page - 1}
+        Sección {page + 1}
       </button>
 
       <button
         className="btn btn-primary btn-sm"
         onClick={() => setPage(page + 1)}
       >
-        Sección {page + 1}
+        Sección {page + 2}
       </button>
     </header>
   );
