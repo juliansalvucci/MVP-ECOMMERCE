@@ -54,7 +54,7 @@ export function ListaProductos() {
       <NavPage page={page} setPage={setPage} />
 
       {loading ? (
-        <div>Loading...</div>
+        <div> Cargando...</div>
       ) : (
         <div className="row">
           {productos?.map((producto) => (
