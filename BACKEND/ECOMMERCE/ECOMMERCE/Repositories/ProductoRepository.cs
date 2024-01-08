@@ -14,7 +14,7 @@ namespace ECOMMERCE.Repositories
             var query = @$"SELECT * FROM Producto
                 ORDER BY Id                               
                 OFFSET {pages * 6} ROWS                               
-                FETCH NEXT 6 ROWS ONLY"; ;
+                FETCH NEXT 6 ROWS ONLY"; 
             var list = cnn.Query<Producto>(query).ToList();
             return list;
         }

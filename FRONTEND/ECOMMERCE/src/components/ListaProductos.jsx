@@ -28,6 +28,7 @@ export function ListaProductos() {
 
   useEffect(() => {
     async function fetchData() {
+      if (page < 0) return page - 1;
       setLoading(true);
       fetch(`https://localhost:7278/api/GetAllProductos?pages=${page}`)
         .then((response) => {
