@@ -1,15 +1,14 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export function Producto(Producto) {
   const [productosCarrito, setProductosCarrito] = useState([]);
 
-  const agregarACarrito = async (producto) => {
-    setProductosCarrito(producto);
+  const agregarACarrito = (producto) => {
+    setProductosCarrito([...productosCarrito, producto]);
+    console.log(productosCarrito)
   };
 
-  useEffect(() => {
-    localStorage.setItem("carrito", productosCarrito);
-  }, [productosCarrito]);
+  
 
   return (
     <div className="text-center p-5">
