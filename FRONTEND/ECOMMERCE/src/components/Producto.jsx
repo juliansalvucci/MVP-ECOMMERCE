@@ -4,11 +4,11 @@ export function Producto(Producto) {
   const [productosCarrito, setProductosCarrito] = useState([]);
 
   const agregarACarrito = (producto) => {
-    setProductosCarrito([...productosCarrito, producto]);
+    setProductosCarrito(productosCarrito => [...productosCarrito, producto]);
     console.log(productosCarrito)
   };
 
-  
+
 
   return (
     <div className="text-center p-5">
@@ -20,6 +20,7 @@ export function Producto(Producto) {
       <p>{`Artículo: ${Producto.nombreProducto}`}</p>
       <p>{`Precio: $ ${Producto.precio}`}</p>
       <button onClick={() => agregarACarrito(Producto)}>SELECCIONAR</button>
+      <p>{productosCarrito.precio}</p>
     </div>
   );
 }

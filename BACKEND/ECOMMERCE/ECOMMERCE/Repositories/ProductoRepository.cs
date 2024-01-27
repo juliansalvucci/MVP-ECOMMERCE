@@ -6,6 +6,7 @@ namespace ECOMMERCE.Repositories
 {
     public class ProductoRepository
     {
+        //public string _cnnStr = "Server=localhost\\SQLEXPRESS;Database=ECOMMERCEBD;Trusted_Connection=True;";
         public string _cnnStr = "Server=localhost\\SQLEXPRESS;Database=ECOMMERCEBD;Trusted_Connection=True;";
         public List<Producto> GetAllProductos(int pages)
         {

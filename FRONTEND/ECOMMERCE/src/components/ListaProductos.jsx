@@ -30,7 +30,8 @@ export function ListaProductos() {
     async function fetchData() {
       if (page < 0) return page - 1;
       setLoading(true);
-      fetch(`https://localhost:7278/api/GetAllProductos?pages=${page}`)
+      //fetch(`https://localhost:7278/api/GetAllProductos?pages=${page}`)
+      fetch(`https://localhost:44354/api/GetAllProductos?pages=${page}`)
         .then((response) => {
           if (!response.ok) {
             throw new Error("Network response was not ok");
