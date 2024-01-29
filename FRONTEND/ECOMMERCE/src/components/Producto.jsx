@@ -3,9 +3,13 @@ import { useState } from "react";
 export function Producto(Producto) {
   const [productosCarrito, setProductosCarrito] = useState([]);
 
+  let productos = []
+
   const agregarACarrito = (producto) => {
-    setProductosCarrito(prevProducto => [...prevProducto, producto]);
-    console.log(productosCarrito)
+    productos.push(producto);
+    console.log(productos);
+    //setProductosCarrito(prevProducto => [...prevProducto, producto]);
+    //console.log(productosCarrito)
   };
 
 
