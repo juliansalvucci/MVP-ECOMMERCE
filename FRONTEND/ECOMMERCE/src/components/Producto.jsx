@@ -3,16 +3,11 @@ import { useState } from "react";
 export function Producto(Producto) {
   const [productosCarrito, setProductosCarrito] = useState([]);
 
-  let productos = []
-
   const agregarACarrito = (producto) => {
-    productos.push(producto);
-    console.log(productos);
-    //setProductosCarrito(prevProducto => [...prevProducto, producto]);
-    //console.log(productosCarrito)
+    productosCarrito.push(producto);
+    //setProductosCarrito((productosCarrito) => [...productosCarrito, producto]);
+    console.log(productosCarrito);
   };
-
-
 
   return (
     <div className="text-center p-5">
